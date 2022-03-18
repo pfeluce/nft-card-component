@@ -1,0 +1,199 @@
+/******************************
+Common styles
+*******************************/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    right:0;
+    left:0;
+    top: 0;
+    bottom: 0;
+}
+
+body {
+    background-color: #0D1A2D;
+    color: #21324E;
+    font-family: 'Outfit', sans-serif;
+    font-weight: 300;
+    font-size: 15px;
+    text-rendering: optimizeLegibility;
+}
+
+
+html, body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    overflow-x: hidden;
+}
+
+/******************************
+NFT Card Styles
+*******************************/
+.center {
+    margin: auto;
+    width: 70%;
+}
+
+#card {
+    position:absolute;
+    height: 595px;
+    width: 350px;
+    border-radius: 15px;
+    background-color: #15273F;
+    padding: 25px;
+    box-shadow: 0px 31px 32px 14px rgba(0, 0, 0, 0.15);
+}
+
+
+
+.container2 {
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    border-radius: 9px;
+    margin: 25px;
+    padding-left: 95px;
+    padding-top: 95px;
+    opacity: 0;
+    transition: 0.3s;
+    cursor:pointer;
+}
+
+.container2:hover {
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    border-radius: 9px;
+    margin: 25px;
+    padding-left: 95px;
+    padding-top: 95px;
+    opacity: 1;
+    transition: 0.3s;
+    background-color: #02FCFA;
+    opacity:0.6;
+    cursor:pointer;
+}
+
+
+.container {
+    position: relative;
+    width: 300px;
+    height: 300px;
+    border-radius: 9px;
+}
+
+#view-icon {
+    position:relative;
+    padding: 25px;
+    margin: auto;
+    width: 120px;
+}
+
+
+.container:hover {
+    width: 300px;
+    height: 300px;
+    border-radius: 9px;
+    background-color: #02FCFA;
+}
+
+#head {
+    color: #fff;
+    font-weight: 600;
+    font-size: 22px;
+    padding-top: 20px;
+    padding-bottom: 25px;;
+}
+
+#head a{
+    padding:0;
+    text-decoration: none;
+    color: #fff;
+    transition: 0.3s;
+}
+
+#head a:hover {
+    color:#02FCFA;
+    transition: 0.3s;
+}
+
+#text-descr {
+    width:300px;
+    color: #8DA6C5;
+    font-weight: 300;
+    font-size: 18px;
+}
+
+#icon-eth {
+    height: 18px;
+    width: 11px;
+    margin-right: 5px;
+}
+
+#icon-time {
+    height: 13px;
+    width: 13px;
+    margin-right: 5px;
+}
+
+.left-text {
+    float: left;
+    display: inline-block;
+    font-size: 16px;
+    color: #02FCFA;
+    font-weight: 400;
+}
+
+
+.right-text {
+    float: right;
+    font-size: 16px;
+    color: #8DA6C5;
+    font-weight: 400;
+}
+ #information {
+     padding-bottom:20px;
+     padding-top: 30px;
+     
+}
+
+#avatar {
+    height: 32px;
+    width: 32px;
+    border: 1px solid #fff;
+    border-radius: 20px;
+    vertical-align: middle;
+    display: inline-block;
+    margin-right: 15px;
+}
+
+.author::before {
+    display:block;
+    height: 0.5px;
+    background-color:#8DA6C5;
+    content: " ";
+    width: 300px;
+    margin: 0 auto;
+    margin-top: 25px;
+    margin-bottom: 15px;
+}
+
+.author {
+    font-size: 16px;
+    color:#8DA6C5;
+    line-height: 32px;
+}
+
+.author a {
+    color: #fff;
+    transition: 0.3s;
+    text-decoration: none;
+}
+
+.author a:hover {
+    color: #02FCFA;
+    transition: 0.3s;
+}
